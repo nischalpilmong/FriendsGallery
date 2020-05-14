@@ -9,3 +9,22 @@ header{
     background: #1ebba3;
     padding: 20px;
 }
+/*flex container*/
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/*flex container ends*/
+
+/*create four equal columns that sits next to each other*/
+.column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
